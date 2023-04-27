@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northeast Brazil Beaches</title>
+    <link
+      rel="shortcut icon"
+      href="
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/075/244/original/beach_emoji.jpg?1680632076"
+    />
+    <style>
+      body {
+        background: linear-gradient(
+          163deg,
+          rgb(28, 167, 187) 31%,
+          rgb(4, 205, 234) 100%
+        );
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .content {
+        background-color: #e9ddd3;
+        color: #fff;
+        margin: 30px auto;
+        padding: 10px 30px;
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+      }
+      h1 {
+        text-align: center;
+        color: #018cb5;
+        border: 5px solid #00b8d2;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      h2 {
+        text-align: center;
+        color: #00b8d2;
+        font-size: 20px;
+      }
+      hr {
+        border-color: #018cb5;
+        color: #018cb5;
+        margin: 20px auto;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 90%;
+        border-radius: 4px;
+      }
+      p {
+        line-height: 1.5;
+        font-size: 15px;
+        text-align: justify;
+      }
+      .read-more {
+        color: #018cb5;
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .read-more:hover {
+        text-decoration: underline;
+      }
+      button {
+        background: linear-gradient(
+          163deg,
+          rgb(28, 167, 187) 31%,
+          rgb(4, 205, 234) 100%
+        );
+        border: none;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        color: #fff;
+        display: block;
+        font-size: 15px;
+        margin: 10px auto;
+        padding: 15px 20px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      .end {
+        text-align: center;
+      }
+      .coder {
+        color: #06c9e5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>I adore Brazil's beaches</h1>
+      <hr />
+      <h2>
+        But the beaches in the <em> Northeast Brazil </em>have a special place
+        in my heart
+      </h2>
+      <hr />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/075/249/original/Jericoacoara-Ceara-O-que-fazer-7.jpg?1680635563
+"
+        alt="Jericoacoara beach in Brazil"
+      />
+      <hr />
+      <p>
+        It's impossible to talk about Brazil and don't think about its beaches
+        and great weather. <br />The country has incredible places for beach
+        lovers. <br />The <strong> Brazilian Northeast </strong> has a coastline
+        that stretches over 1,800 miles, featuring secluded beaches with calm
+        and warm waters and palm trees. Another great thing about the Northeast
+        is that the sun shines most days in this region and can be visited
+        year-round.
+      </p>
+      <hr />
+      <a
+        href="https://www.thetravel.com/beaches-to-visit-in-northeast-brazil/#coqueirinho-para-iacute-ba"
+        target="_blank"
+        class="read-more"
+        >👉 Read more here</a
+      >
+      <br />
+      <button>✨ Subscribe to a travel tips Newsletter ✨</button>
+      <p class="end">
+        This page was built by
+        <a
+          href="https://www.linkedin.com/in/vanessa-santos-626b41269/"
+          target="_blank"
+          class="coder"
+        >
+          Vanessa Santos</a
+        >
+      </p>
+    </div>
+    <script>
+      function subscribeToNewsletter() {
+        let name = prompt("What is your name?");
+        let contact = prompt("What is your e-mail address?");
+        alert ("Hi, " + name + "! Thank you for subscribing ✨ We will see you next time in your mail box 🤩");
+      }
+
+      let Button = document.querySelector("button");
+      Button.addEventListener("click", subscribeToNewsletter);
+    </script>
+  </body>
+</html>
